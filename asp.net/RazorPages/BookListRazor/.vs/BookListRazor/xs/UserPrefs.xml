@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{0AF1AE97-C601-4ABD-8464-CBE007F3FBC1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BookListRazor/wwwroot/js/bookList.js">
+    <Files>
+      <File FileName="BookListRazor/Pages/BookList/Upsert.cshtml" Line="7" Column="42" />
+      <File FileName="BookListRazor/Pages/BookList/Upsert.cshtml.cs" Line="50" Column="1" />
+      <File FileName="BookListRazor/wwwroot/js/bookList.js" Line="51" Column="23" />
+      <File FileName="BookListRazor/Pages/BookList/Index.cshtml" Line="30" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BookListRazor" expanded="True">
+            <Node name="BookListRazor" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="BookList" expanded="True">
+                  <Node name="Edit.cshtml" expanded="True" />
+                  <Node name="Upsert.cshtml" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="js" expanded="True">
+                  <Node name="bookList.js" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.BookListRazor PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

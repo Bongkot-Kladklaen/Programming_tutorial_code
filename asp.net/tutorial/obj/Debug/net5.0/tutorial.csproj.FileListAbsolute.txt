@@ -1,0 +1,15 @@
+/Users/jaybong/Desktop/asp.net/tutorial/obj/Debug/net5.0/tutorial.csprojAssemblyReference.cache
+/Users/jaybong/Desktop/asp.net/tutorial/obj/Debug/net5.0/tutorial.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jaybong/Desktop/asp.net/tutorial/obj/Debug/net5.0/tutorial.AssemblyInfoInputs.cache
+/Users/jaybong/Desktop/asp.net/tutorial/obj/Debug/net5.0/tutorial.AssemblyInfo.cs
+/Users/jaybong/Desktop/asp.net/tutorial/obj/Debug/net5.0/tutorial.csproj.CoreCompileInputs.cache
+/Users/jaybong/Desktop/asp.net/tutorial/bin/Debug/net5.0/tutorial.deps.json
+/Users/jaybong/Desktop/asp.net/tutorial/bin/Debug/net5.0/tutorial.runtimeconfig.json
+/Users/jaybong/Desktop/asp.net/tutorial/bin/Debug/net5.0/tutorial.runtimeconfig.dev.json
+/Users/jaybong/Desktop/asp.net/tutorial/bin/Debug/net5.0/tutorial.dll
+/Users/jaybong/Desktop/asp.net/tutorial/bin/Debug/net5.0/ref/tutorial.dll
+/Users/jaybong/Desktop/asp.net/tutorial/bin/Debug/net5.0/tutorial.pdb
+/Users/jaybong/Desktop/asp.net/tutorial/obj/Debug/net5.0/tutorial.dll
+/Users/jaybong/Desktop/asp.net/tutorial/obj/Debug/net5.0/ref/tutorial.dll
+/Users/jaybong/Desktop/asp.net/tutorial/obj/Debug/net5.0/tutorial.pdb
+/Users/jaybong/Desktop/asp.net/tutorial/obj/Debug/net5.0/tutorial.genruntimeconfig.cache
