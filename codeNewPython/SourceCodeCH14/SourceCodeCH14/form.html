@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<title>Membership Application Form</title>
+<meta charset="utf-8">
+</head>
+<body>
+<form action="postdata.py" method="post" name="form1" id="form1">
+  <strong>แบบฟอร์มสมัครสมาชิก</strong><p>
+  ชื่อ-สกุล: 
+	<input type="text" name="name" id="name"><p>
+  เพศ:
+    <input type="radio" name="sex" value="1">ชาย&nbsp;&nbsp;
+  <input type="radio" name="sex" value="2">หญิง<p>
+  อาชีพ : 
+      <select name="carr">
+        <option value="1" selected="SELECTED">นักเรียน/นักศึกษา</option>
+        <option value="2">พนักงานบริษัท</option>
+        <option value="3">เกษตรกร</option>
+        <option value="4">นักธุรกิจ</option>
+        <option value="5">นักกีฬา</option><p>
+      </select><p>
+  งานอดิเรก:
+	<input name="movie" type="checkbox" value="1">ดูหนังฟังเพลง&nbsp;
+	<input name="game" type="checkbox" value="2">เล่นเกม&nbsp;
+	<input name="read" type="checkbox" value="3">อ่านหนังสือ<p>
+  คุณชื่นชอบอะไรในเว็บไซต์นี้? :<p>
+	<textarea name="fav"></textarea><p>
+ <input type="submit" value="ลงทะเบียน">
+ <input type="reset" value="เคลียร์">
+</form
+</body>
+</html>

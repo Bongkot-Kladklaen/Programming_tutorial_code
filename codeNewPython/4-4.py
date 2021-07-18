@@ -1,0 +1,11 @@
+x = 10
+y = 4
+print('x & y = ', x & y)
+print('x | y = ', x | y)
+print('x ^ y = ', x ^ y)
+print('~x = ', ~x)
+print('x << 1 = ', x << 1)
+print('y >> 2 = ' , y >> 2)
+print('5 >> 2 = ', 5 >> 2)
+print('0b1010 | 0101 = ', 0b1010 | 0b0101)
+print('0x5A & 0x3F = ', 0x5A & 0x3F)

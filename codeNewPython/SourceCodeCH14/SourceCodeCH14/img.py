@@ -1,0 +1,12 @@
+#!C:\Python36\python
+print("Content-Type: text/html")
+print()
+print("<TITLE>การแสดงภาพและตาราง</TITLE>")
+print("<H1>รายละเอียดสินค้า</H1>")
+print("<TABLE BORDER='1'><TR><TD><STRONG>ชื่อ</STRONG></TD>")
+print("<TD><STRONG>หมวดหมู่</STRONG></TD>")
+print("<TD><STRONG>รูปภาพ</STRONG></TD></TR>")
+print("<TR><TD>หนังสือ Photoshop</TD><TD>Graphic</TD>")
+print("<TD><IMG src='img/ps.jpg'></TD></TR>")
+print("<TR><TD>หนังสือภาษา C++</TD><TD>Programming</TD>")
+print("<TD><IMG src='img/c.jpg'></TD></TR></TABLE")
