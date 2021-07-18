@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="post">
+        <p>หัวข้อ: {{ title }}</p>
+        <p>ข้อความ: {{ message }}</p>
+    </div>
+    <div id="comment">
+        <textarea name="" id="" cols="30" rows="10">{{text}}</textarea>
+    </div>
+    <div id="like">
+        <button type="button" @click="changelike()">like</button>
+        <p>Like: {{likeCount}}</p>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script src="multipleVue.js"></script>
+</html>
