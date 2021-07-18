@@ -1,0 +1,1 @@
+CREATE TABLE menu(id int,descr text ,price int);
