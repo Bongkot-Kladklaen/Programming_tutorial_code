@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+	<title>My First Ajax</title>
+	<script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<h2>My List</h2>
+	<table>
+		<tr>
+			<td>Search</td>
+			<td><input type="text" id="mySearch" /></td>
+		</tr>
+	</table> 
+	<hr />
+	<div id="strShow">Show Result</div>
+	<script>
+		$(document).ready(function(){
+			$('#mySearch').keyup(function(){
+  				myAjax();
+  			});
+		});
+		function myAjax(){
+			$.ajax({
+  				url:'source.html',
+  				success: function(data){
+					$('#strShow').html(data);
+  				}
+			});
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+	<title>My First Ajax</title>
+	<script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<div id="search">
+		Search:
+		<input type="text" id="myID" />
+	</div>
+	<div id="strShow"></div>
+<script>
+	function showStudent(){
+		var sendId = $('#myID').val();
+		$.post('student.php', {id:sendId}, function(data) {
+			var currentName = data.name;
+			var currentClass = data.studentClass;
+			$('#strShow').html(' : ' + currentName + ' ' + currentClass);
+		},'json');
+	}
+	$(document).ready(function() {
+		$('#myID').keyup(function() {
+			showStudent();
+		});
+	});
+</script>
+</body>
+</html>

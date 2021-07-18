@@ -1,0 +1,28 @@
+header, footer{
+	background-color: #e3e3e3;
+}
+aside{
+	float:right; 
+	width: 20%;
+	background-color: silver;
+}
+article{
+	float:left; 
+	width: 78%;
+	background-color: white;
+}
+aside li {
+	list-style: none;
+}
+header, aside, article {
+	outline-color: black;
+	outline-style: solid;
+	outline-width: 1px;
+}
+body{
+	background-color: silver;
+}
+#main{
+	width: 800px;
+	margin: auto;
+}

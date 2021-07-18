@@ -1,0 +1,32 @@
+#sidebar{
+	float:left; width: 20%;
+	background-color: silver;
+	margin-right: 2%;
+}
+#sidebar li{
+	list-style: none;
+}
+.article{
+	float:right; width: 78%;
+	background-color: #e3e3e3;
+}
+#footer{
+	clear: both;
+	position: relative;
+	top: 15px;
+}
+#main, #header, #footer{
+	width: 960px;
+	margin: auto;
+}
+#header, #footer{
+	background-color: gray;
+}
+#header, #footer, #sidebar, .article{
+	outline-color: black;
+	outline-style: solid;
+	outline-width: 1px;
+}
+body{
+	background-color: silver;
+}

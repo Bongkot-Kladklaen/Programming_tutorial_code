@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+	<title>การใช้ตัวแปร Global</title>
+	<meta charset="UTF-8" />
+</head>
+<body>
+	<script>
+		var x = 0; //ประกาศตัวแปร x เป็นแบบ Global
+		function myScope() {
+			x = 30;
+			alert(x);  //แสดงค่า x ออกมา ซึ่งในที่นี้มีค่าเป็น 30
+		}
+		myScope();   //เรียกใช้ฟังก์ชัน
+		console.log(x); //แสดงค่า x บน console 
+	</script>
+</body>
+</html>

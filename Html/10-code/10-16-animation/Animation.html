@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS3 Animation</title>
+	<meta charset='UTF-8'>
+	<style>
+		@-webkit-keyframes myanimation{
+		 	from{
+				-webkit-transform: translate(0px, 0px) rotate(0deg);
+			}
+			to{
+				-webkit-transform: translate(100px, 0px) rotate(30deg);
+			}	
+		}
+		#mydiv{
+			background-color: #00ff00;
+			-webkit-animation-name: myanimation;
+			-webkit-animation-duration: 3s;
+		}
+	</style>
+</head>
+<body>
+	<div id="mydiv">
+		<p>Hello Animation!</p>
+	</div>
+</body>
+</html>

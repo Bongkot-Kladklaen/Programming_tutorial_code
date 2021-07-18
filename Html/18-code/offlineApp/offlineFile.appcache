@@ -1,0 +1,8 @@
+CACHE MANIFEST
+
+CACHE:
+offlineApp.html
+offlineFile.appcache
+
+FALLBACK:
+online.gif    offline.gif

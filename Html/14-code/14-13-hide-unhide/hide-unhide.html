@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+	<title>Animation</title>
+	<script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<div>
+		<img src="myPic.png" id="mypic">
+	</div>
+	<input type="button" id="show" value="show" />
+	<input type="button" id="hide" value="hide" />
+	<input type="button" id="toggle" value="toggle" />
+	<script>
+		function getToggle(){
+			$('#show').click(function(){
+				$('#mypic').show('slow');
+			});
+			$('#hide').click(function(){
+				$('#mypic').hide(4000);
+			});
+			$('#toggle').click(function(){
+				$('#mypic').toggle('normal',function(){
+					var test = $(this).css('display');
+					if (test == 'inline-block') {
+						alert("The picture is shown already.");
+					} else if (test == 'none') {
+						alert("The picture is hidden.");
+					}
+				});
+			});
+		}
+		$(document).ready(function(){
+			getToggle();
+		});
+	</script>
+</body>
+</html>

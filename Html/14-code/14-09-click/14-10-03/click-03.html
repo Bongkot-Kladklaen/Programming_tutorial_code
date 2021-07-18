@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+	<title>Test Event</title>
+	<style>
+		#outPutStr {
+			color:red;
+			font-size: 16px;
+		}
+	</style>
+	<script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<form>
+		<table>
+			<tr>
+				<td>Name</td>
+				<td><input type="text" id="myName" /></td>
+			</tr>
+			<tr>
+				<td>Lastname</td>
+				<td><input type="text" id="myLast" /></td>
+			</tr>
+			<tr>
+				<td>Click for show >><input id="showIt" type="button" value="Show" /></td>
+				<td><div id="outPutStr"></div></td>
+			</tr>
+		</table>
+	</form>
+	<script >
+		$(document).ready(function() {
+			myShow();
+		});
+		function myShow(){
+			$('#showIt').click(function(){
+				var myFirstName = $('#myName').val();
+				var myLastName = $('#myLast').val();
+				$('#outPutStr').html('My name is : ' + myFirstName + ' ' + myLastName);
+			});
+		}
+	</script>
+</body>
+</html>

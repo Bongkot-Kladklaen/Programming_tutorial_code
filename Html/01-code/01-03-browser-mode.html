@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html lang="th">
+	<head>
+		<title>ตรวจสอบ Browser Mode</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		Hello World! สวัสดี HTML5
+		<script>
+		if (document.compatMode == "CSS1Compat") {
+			alert("โหมดที่ใช้งานคือ Standard Mode")
+		} else if (document.compatMode == "BackCompat") { 
+			alert("โหมดที่ใช้งานคือ Quirks Mode")
+		}
+		</script>
+	</body>
+</html>

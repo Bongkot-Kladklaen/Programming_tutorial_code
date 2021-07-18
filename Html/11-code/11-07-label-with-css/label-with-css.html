@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+	<meta charset="utf-8" />
+	<title>CSS with Basic Form</title>
+	<link rel="stylesheet" href="normalize.css" />
+	<style>
+		form {
+			position: relative;
+			top: 40px;
+		}
+		form * {
+			background: transparent;
+		}
+		input {
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			border: none;
+			background: none;
+			-webkit-border-radius: 0;	
+			border-radius: 0;
+			padding: 0;
+			margin: 0;
+		}
+		boyd{
+			background: gray;
+		}
+		form{
+			position: relative;
+			width: 200px;
+			margin: 0 auto;
+		}
+		.myLabel{
+			display: block;
+			width: 250px;
+			margin: 10px;
+			height: 30px;
+			background: #EEE;
+			border: 1px solid #DDD;
+			font-size: 16px;
+			color: #666;
+			-webkit-border-radius: 14px;
+			border-radius: 14px;
+			-webkit-box-shadow: inset 0px 2px 1px #444;
+			box-shadow: inset 0px 2px 1px #444;
+		}
+		label{
+			display: block;
+			position: relative;
+			padding-top: 6px;
+			width: 90px;
+			height: 25px;
+			float: left;
+			text-align: center;
+			color: #ddd;
+			background: url(bkApple.png) repeat-x;
+			-webkit-border-radius: 14px;
+			border-radius: 14px;
+			-webkit-box-shadow: inset 0px 1px 2px #444;
+			box-shadow: inset 0px 1px 2px #444;
+			text-shadow: 2px 0px 1px #333;
+		}
+		input[type=text]{
+			width: 140px;
+			display: block;
+			float: left;
+			font-size: 1em;
+			color: #666;
+			padding: 5px;
+			outline: solid transparent;
+		}
+	</style>
+</head>
+<body>
+	<form class="mainForm">
+		<div class="myLabel">
+			<label for="myName">ชื่อผู้ใช้</label><input type="text" id="myName" />
+		</div>
+		<div class="myLabel">
+			<label for="myLast">นามสกุล</label><input type="text" id="myLast" />
+		</div>
+	</form>
+</body>
+</html>

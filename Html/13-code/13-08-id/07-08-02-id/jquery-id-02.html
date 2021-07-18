@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="th">
+	<head>
+		<title>jQuery is powerful</title>
+	</head>
+	<body>
+		<h2>jQuery Selector</h2>
+		<div id="first">
+			<p>Hello jQuery!</p>
+		</div>
+		<div id="second">
+			<p>Goodbye jQuery</p>
+		</div>
+		<script src="jquery-3.3.1.min.js"></script>
+		<script>
+			$(document).ready(function() {	
+				var myDiv = $('#second');
+				alert(myDiv.html());		
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+	<meta charset="utf-8">
+	<script src="jquery-3.3.1.min.js"></script>
+	<style>
+		.highlight {color:red;}
+		.textBox {background-color:yellow;}
+	</style>
+	<script>
+		$(function(){
+			$(':disabled').addClass('textBox');
+			$(':checkbox:checked').after('<span class="highlight">***</span>');
+		});
+	</script>
+</head>
+<body>
+	<h4>Test Form</h4>
+	<form>
+		<table>
+			<tr>
+			<td>ชื่อ</td><td><input type="text" name="name"></td>
+			</tr>
+			<tr>
+			<td>นามสกุล</td><td><input type="text" name="last" disabled="disabled"></td>
+			</tr>
+			<tr>
+			<td>เพศ</td>
+			<td>
+			<input type="radio" name="gen" value="m" checked="checked"><span>ชาย</span>
+			<input type="radio" name="gen" value="w"><span>หญิง</span>
+			</td>
+		</tr>
+		<tr>
+		<td>ภาษา</td>
+		<td>
+		<input type="checkbox" name="eng" value="en" checked="checked">อังกฤษ
+		<input type="checkbox" name="japanese” value="jp">ญี่ปุ่น
+		<input type="checkbox" name="chinese" value="ch" checked="checked">จีน
+		<input type="checkbox" name="french" value="jp">ฝรั่งเศส
+		<input type="checkbox" name="german" value="jp">เยอรมัน
+		<input type="checkbox" name="spanish" value="jp">สเปน
+		</td>
+		</tr>
+		<tr>
+		<td></td>
+			<td><input type="reset">
+			<input type="submit" value="send"></td>
+		</tr>
+		</table>
+	</form>
+</body>
+</html>

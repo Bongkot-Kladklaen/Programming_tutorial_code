@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+	<title>Test Event</title>
+	<script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<img id="myPic" class="changeBorder" src="images/icon.png" /><br />
+	<a href="#" id="myLink">Please Click!</a>
+	<script >
+		$("#myPic").click(function() {
+			$("#myLink").click();
+		});
+		$("#myLink").click(function() {
+			alert("You click the link too.");
+		});
+	</script>
+</body>
+</html>

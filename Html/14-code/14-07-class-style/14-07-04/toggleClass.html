@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  	<script src="jquery-3.3.1.min.js"></script>
+</head>
+<style>
+	.emphasisClass{
+		background-color: red;
+	}
+</style>
+<body>
+	<form>
+		Name : <input type="text" onfocus="myOnFocus(this)" onblur="myOnBlur(this)"/> <br />
+		Surname : <input type="text" onfocus="myOnFocus(this)" onblur="myOnBlur(this)"/> <br />
+		<input type="submit" value="Send" />
+	</form>
+	<script>
+		function myOnFocus(myInput){
+			$(myInput).toggleClass("emphasisClass");
+		}
+		function myOnBlur(myInput){
+			$(myInput).toggleClass("emphasisClass");
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+	<meta charset="utf-8" />
+	<title>CSS with Basic Form</title>
+	<link rel="stylesheet" href="normalize.css" />
+	<style>
+		form{
+			position: relative;
+			top:  20px;
+			width: 350px;
+			margin: 0 auto;
+		}
+		form * {
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			background: transparent;
+		}
+		select, option {
+			border: none;
+			background: none;
+			-webkit-border-radius: 0;	
+			border-radius: 0;
+			padding: 0;
+			margin: 0;
+		}
+		select{
+			background: #555;
+			-webkit-border-radius: 5px;	
+			border-radius: 5px;
+			width:  212px;
+			height: 32px;
+			background: url('optPic.png') no-repeat;
+			padding-left: 10px;
+			outline: solid transparent;
+			font-size: 12px;
+			outline: solid transparent;
+			color: white;
+		}
+		select:focus {
+			background: url('optPic.png') no-repeat 0px -33px;
+		}
+		option{
+			background: #8bb;
+			padding-left: 5px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<form class="group">
+		<label for="product">เลือกประเภทสินค้า</label>
+		<select name="productGroup" id="product">
+			<option>คลิกเลือก</option>
+			<option value="macbookPro">Macbook Pro</option>
+			<option value="macbookAir">Macbook Air</option>
+			<option value="iMac">iMac</option>
+			<option value="macMini">Macmini</option>
+		</select>
+	</form>
+</body>
+</html>

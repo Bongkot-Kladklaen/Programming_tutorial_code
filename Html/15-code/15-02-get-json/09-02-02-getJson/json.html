@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+	<title>My First Ajax</title>
+	<script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<p style="color:blue;">Select Branch</p>
+	<hr />
+	<form>
+		<select name="brand" id="myBranch">
+			<option value="jShop">jShop</option>
+			<option value="SiamShop">Siam Shop</option>
+			<option value="ByteMe">Byte Me</option>
+		</select>
+	</form>
+	<div id="strShow"></div>
+	<script>
+		function showBranch(){
+			$.getJSON('place.php', {branch:$('#myBranch').val()}, function(data) {
+				var shopTel = data.telephone;
+				var shopAddress = data.address;
+				$('#strShow').html("Telephone is : " + shopTel + " Address is : " + shopAddress);
+			});
+		}
+		$(document).ready(function() {
+			$('#myBranch').change(function() {
+				showBranch();
+			});
+		});
+	</script>
+</body>
+</html>

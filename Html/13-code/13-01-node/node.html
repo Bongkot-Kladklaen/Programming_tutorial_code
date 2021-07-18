@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang="th">
+<head>
+	<title>HTML5 Node</title>
+	<meta charset='utf-8'>
+</head>
+<body>
+	<ul>
+		<li><a href="#">Menu1</a></li>
+		<li><a href="#">Menu2</a></li>
+	</ul>
+	<script>
+	var myTitle = document.getElementsByTagName("title");
+	var myLists = document.getElementsByTagName("li");
+	var myLinks = document.getElementsByTagName("a");
+	console.log("ประเภทของ Element ในปัจจุบัน คือ " + myLists[0].nodeType);
+	console.log("ข้อความที่อยู่ในโหนดนี้ คือ  " + myTitle[0].innerHTML);
+	console.log("จำนวนลิงก์ที่อยู่ในเว็บเพจทั้งหมด คือ " + myLinks.length);
+	console.log("ข้อความที่อยู่ในลิงก์ที่สอง คือ " + myLinks[1].innerHTML);
+	</script>
+</body>
+</html>

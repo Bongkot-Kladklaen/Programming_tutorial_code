@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+	<title>Test Event</title>
+</head>
+<body>
+	<img id="myImage" src="images/icon.png" alt="Logo" />
+	<script >
+		var myImg = document.getElementById("myImage");
+		if (document.addEventListener){   
+			myImg.addEventListener('click', function(){
+				alert("Hello This is the most browser");
+			});
+		}else {
+			myImg.attachEvent('onclick',function() {
+				alert("Hello This is Internet Explorer");
+			});
+		}
+	</script>
+</body>
+</html>

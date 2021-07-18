@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+	<style>
+		div { border: 2px solid blue; margin:2px; padding:2px;}
+		.doubleline { border-color:green;}
+		p { background:#e4e4e4; margin:4px; font-size:14px;}
+		#blockContainer {width: 640px;margin: auto;}
+	</style>
+	<script src="jquery-3.3.1.min.js"></script>
+</head>
+<body id="blockContainer">
+	<h3>How to use wrap</h3>
+	<p>Hello</p>
+	<p>jQuery</p>
+	<div class="doubleline"><div></div></div>
+	<script>
+			$("p").wrap($(".doubleline"));
+	</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+	<title>Hello jQuery</title>
+</head>
+<body>
+	<h2>Walk through the DOM</h2>
+	<p>First Paragraph of Text</p>
+	<p>Second Paragraph of Text</p>
+	<p>Third Paragraph of Text</p>
+	<script src="jquery-3.3.1.min.js"></script>
+	<script>
+		var showStr = "";
+   		$("p").each(function(index){
+			showStr = "Index number " + index + " : " + $(this).text();
+			alert(showStr);
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+	<title>Hello jQuery</title>
+</head>
+<body>
+	<h2 id="myID">Set properties through object</h2>
+	<script src="jquery-3.3.1.min.js"></script>
+	<script>
+   	$("h2").each(function(index){
+			this.title = "DOM object Title";
+			alert("Title : " + this.title);
+		});
+	</script>
+</body>
+</html>

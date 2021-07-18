@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+	<title>jQuery is powerful</title>
+</head>
+<body>
+	<h2>jQuery Selector</h2>
+	<div id="first">
+		<a href="http://www.iosthailand.com" title="iosthailand">Best Product</a>&nbsp
+		<a href="#" title="software">Hello JavaScript!</a>
+	</div>
+	<script src="jquery-3.3.1.min.js"></script>
+	<script>
+		$(document).ready(function() {
+   			var myDisplay = $("a[title=iosthailand]");
+			alert(myDisplay.html());
+ 		});
+	</script>
+</body>
+</html>

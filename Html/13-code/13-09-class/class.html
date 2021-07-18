@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery is powerful</title>
+</head>
+<body>
+	<h2 class="headline">jQuery Selector</h2>
+	<div id="first">
+		<p>Hello JavaScript!</p>
+		<p>Hello jQuery!</p>
+	</div>
+	<div id="second">
+		<p class= "top">Goodbye Javascript</p>
+		<p>Goodbye jQuery</p>
+	</div>
+	<script src="jquery-3.3.1.min.js"></script>
+	<script>
+		$(document).ready(function() {
+   			$('.headline, .top').css('color', 'red');
+ 		});
+	</script>
+</body>
+</html>

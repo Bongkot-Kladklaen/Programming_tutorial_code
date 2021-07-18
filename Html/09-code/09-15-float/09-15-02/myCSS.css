@@ -1,0 +1,28 @@
+#blockContainer {
+   width: 640px;
+   margin: auto;
+}
+#sidebarLeft {
+   float: left;
+   width: 30%;
+   background: #e2e2e2;
+}
+#mainRight {
+  float: right;
+  width: 70%;
+  background: #00e4e2;
+}
+#header {
+  background: orange;
+}
+#footer {
+  background: green;
+  color: white;
+  clear: both;
+}
+#sidebarLeft p {
+   padding: 10px;
+}
+#mainRight p {
+   padding: 10px;
+}

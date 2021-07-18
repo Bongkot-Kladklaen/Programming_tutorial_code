@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang="th">
+<head>
+	<title>HTML5 Structure</title>
+	<meta charset='UTF-8'>
+	<style>
+		input [type:tel]{
+			width:300px;
+			float: center;
+			margin:0 auto;
+		}
+	</style>
+</head>
+<body>
+	<h2>กรุณากรอกเบอร์โทรศัพท์</h2>
+	<form id='myform' method='post'>
+		<label for='telnum'>Mobile Phone</label>
+		<input type='tel' id='telnum' pattern="[0-9]{10}">
+		<input type='submit' value='Send'>
+	</form>
+</body>
+</html>

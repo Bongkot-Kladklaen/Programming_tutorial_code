@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+   <title>My Table</title>
+  	<script src="jquery-3.3.1.min.js"></script>
+   <style>
+      table { border: 1px; }
+	</style>
+</head>
+<body>
+  	<div>jQuery Selector</div>
+  	<br />
+	<table id="myTable">
+		<tr><td>First Row</td></tr>
+		<tr><td>Second Row</td></tr>
+		<tr><td>Last Row</td></tr>
+	</table>
+  	<ul id="myUnOrderList">
+  		<li>Firt List</li>
+  		<li>Secound List</li>
+  		<li>Third List</li>
+		<li>Last List</li>
+  	</ul>
+	<script>
+		$("table").prepend("<tr><td>Head Column</td><tr>");
+		$("tr:first-child").css({
+			background: "blue",
+			color: "white"
+		});
+		$("<li>Head List</li>").prependTo("#myUnOrderList");
+		$("li:first-child").css("color", "red");
+	</script>
+</body>
+</html>

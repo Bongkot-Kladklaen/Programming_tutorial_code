@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+	<title>My First Ajax</title>
+	<script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<h2>My List</h2>
+	<input type="button" value="Click for load content" id="myClick" />
+	<hr />
+	<div id="strShow"></div>
+	<script>
+	$(document).ready(function(){
+		$('#myClick').click(function(){
+			myAjax();
+		});
+	});
+	function myAjax(){
+		$('#strShow').load('server.html table', function(response, status, xhr){
+			alert('Page loaded! : Status is :' + xhr.statusText);
+		});
+	}
+	</script>
+</body>
+</html>

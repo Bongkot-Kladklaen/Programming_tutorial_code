@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+	<title>Test Event</title>
+	<script src="jquery-3.3.1.min.js"></script>
+</head>
+<style>
+	.basic {
+		background-color:red;
+		width: 320px;
+		height: 240px;
+	}
+	.myBlue{
+		background-color:blue;
+		color: white;
+		width: 320px;
+		height: 240px;
+	}
+</style>
+<body>
+	<div id="myData" class="basic myBlue">Please Click Me!<div/>
+	<script >
+		$("#myData").click(function() {
+			$(this).toggleClass("myBlue");
+		});
+	</script>
+</body>
+</html>

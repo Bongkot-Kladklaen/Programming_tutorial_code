@@ -1,0 +1,42 @@
+/* เลือก header และ footer แล้วจึงกำหนดให้มีพื้นเป็นสีเทา */
+header, footer{
+	background-color: gray;
+}
+/* เลือก aside ให้ชิดช้าย กว้าง 20% กำหนดสีพื้น และห่างจากเอลิเมนต์ด้านขวา 2% */
+aside{
+	float:left; 
+	width: 20%;
+	background-color: silver;
+	margin-right: 2%;
+}
+/* เลือก list ที่อยู่ใน aside และกำหนดให้ไม่มีเครื่องหมายจุดด้านหน้า */
+aside li {
+	list-style: none;
+}
+/* เลือก article ให้ชิดขวา กว้าง 78% และกำหนดสีพื้น */
+article{
+	float:right; 
+	width: 78%;
+	background-color: silver;
+}
+/* เลือก footer ให้ล้างค่าชิดซ้ายและขวา ตำแหน่งเลื่อนลงมาจากด้านบน 15 พิกเซล */
+footer{
+	clear: both;
+	position: relative;
+    	top: 15px;
+}
+/* header, footer, section ให้มีความกว้าง 960 พิกเซล และปรับให้อยู่ตรงกลางหน้าจอ */
+header, footer, section{
+	width: 960px;
+	margin: auto;
+}
+/* header, footer, aside, article กำหนดสีพื้น ใช้เส้นทึบ และเส้นขนาด 1 พิกเซล */
+header, footer, aside , article{
+	outline-color: black;
+	outline-style: solid;
+	outline-width: 1px;
+}
+/* กำหนดสี body ซึ่งเป็นพื้นหลังเว็บเพจ */
+body{
+	background-color: silver;
+}

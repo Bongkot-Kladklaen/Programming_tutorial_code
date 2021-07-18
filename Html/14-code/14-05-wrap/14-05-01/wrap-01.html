@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  	<style>
+	  	div { 
+	  		border:2px red solid; 
+	  		margin:2px; 
+	  		padding:2px;
+	  		width: 150px;
+	  	}
+	  	p { 
+	  		background:#e3e3e3; 
+	  		width: 150px;
+			color: blue;
+	  	}
+	</style>
+	<script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<span>My Firs Span Text</span>
+	<p>jQuery Wrap Function</p>
+	<span>My Second Span Text</span>
+	<script>
+		$("span").wrap("<div><em></em></div>");
+	</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+#parentElement {
+     width: 480px;
+     margin: auto;
+     background: #e4e4e4;
+     position: relative;
+}
+#parentElement p {
+     padding-left: 10px;
+     color: gray;
+}
+#childElement {
+     width: 100px;
+     height: 100px;
+     background: red;
+     color: white;
+     position: absolute;
+     right: 20px;
+     top: 40px;
+}
+#childElement p {
+     background: red;
+     color: white;
+}

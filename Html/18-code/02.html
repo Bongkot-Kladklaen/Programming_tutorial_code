@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+	<html>
+		<head>
+			<TITLE>ทดสอบ Local Storage</TITLE>
+			<meta charset= "utf-8" >
+		</head>
+		<body>
+
+			<div>
+				key : <input id="local_storage_key" type="text" /> &nbsp;
+				value : <input id="local_storage_value" type="text" />
+			</div>
+			<hr>
+			<div>
+				<input type="button" value="จัดเก็บ" onclick="store_local();"/>
+				<input type="button" value="แสดง" onclick="load_local();"/>
+			</div>
+			<div id="tableDiv" style="margin-top:10px;">
+			</div>
+
+	<script type="text/javascript">
+	function store_local(){
+		var keyinput = document.getElementById('local_storage_key').value;
+		var valinput = document.getElementById('local_storage_value').value;
+		if(keyinput== '' || valinput== ''){
+			return;
+		}
+		try{
+			if(typeof(window.localStorage) != 'undefined'){
+				window.localStorage.setItem(keyinput,valinput);
+				document.getElementById('local_storage_key').value = '';
+				document.getElementById('local_storage_value').value = '';
+				alert('ได้จัดเก็บ '+ keyinput + ' : ' + valinput + ' ลงใน Local Storage แล้ว');
+			} else {
+				throw "window.localStorage, not defined";
+			}
+		}
+		catch(err){
+			output_str("store_local,error," + err);
+		}
+	}
+	function load_local(){
+		try {
+			if(typeof(window.localStorage) != 'undefined') {
+				create_table('tableDiv');
+			} else {
+				throw "window.localStorage, not defined";
+			}
+		}
+		catch(err) {
+				output_str("store_local,error," + err);
+		}
+	}
+	function create_table(tableContainer) {
+            	var table = document.createElement ("table");
+            	table.border = "1px";
+            	var tBody = document.createElement ("tbody");
+            	table.appendChild (tBody);
+            	for (var key in window.localStorage) {
+                		var row = tBody.insertRow (-1);
+                		for (var i = 0; i < 2; i++) {
+                    			var cell = row.insertCell (-1);
+                    			if(i%2==0){
+                    				cell.innerHTML = key;
+                    			}else{
+                    			cell.innerHTML = window.localStorage.getItem(key);
+                    			}
+                		}
+            	}
+            	var container = document.getElementById (tableContainer);
+            	container.appendChild(table);
+        	}
+	</script>
+		 </body>
+	</html> 

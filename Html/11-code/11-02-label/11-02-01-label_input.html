@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang= "th">
+<head>
+	<meta charset = "utf-8" />
+	<title>Form Input</title>
+	<style>
+		div{
+			display:block;
+			width: 450px;
+			margin: 0 auto;
+		}
+		form {
+			padding-top: 30px;
+			padding-left: 50px;
+		}
+		input[type=checkbox] {
+			position:relative;
+			float:left;
+			margin-left: 40px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+	<form action= "http://google.com/search">
+		<label for="searchbox">ค้นหา</label>
+		<input id="secrchbox" type="text" name="q"/>
+		<input type="submit" value="ค้น" />
+		<br>
+		<input id="imagescheckbox" type="checkbox" name="tbm" value="isch" />
+		<label for="imagescheckbox">เฉพาะรูปภาพ</label>
+	</form>
+	</div>
+</body>
+</html>

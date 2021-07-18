@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  	<script src="jquery-3.3.1.min.js"></script>
+</head>
+<style>
+	.myClass {
+		background-color:yellow;
+		color:red;
+	}
+	.yourClass{
+		text-decoration: underline;
+		color:blue;
+	}
+</style>
+<body>
+	<div>
+		<p class="myClass yourClass">First Paragraph</p>
+		<p class="myClass yourClass">Second Paragraph</p>
+		<p class="myClass yourClass">Third Paragraph</p>
+	</div>
+	<script>
+	$(document).ready(function(){
+		$('p:first').removeClass();
+		$('p:nth-child(2)').removeClass("myClass");
+		$('p:last').removeClass("yourClass");
+	});
+	</script>
+</body>
+</html>

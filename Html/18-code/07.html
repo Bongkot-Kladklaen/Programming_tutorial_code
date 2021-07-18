@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+	<html>
+		<head>
+			<TITLE>ทดสอบ Session Storage</TITLE>
+			<meta charset= "utf-8" >
+		</head>
+		<body>
+			<div>
+				key : <input id="session_storage_key" type="text" /> &nbsp;
+				value : <input id="session_storage_value" type="text" />
+			</div>
+			<hr>
+			<div>
+				<input type="button" value="จัดเก็บ" onclick="store_session();"/>
+				<input type="button" value="ล้างทั้งหมด" onclick="clear_session();"/>
+			</div>
+			<div id="selectDiv" style="margin-top:10px;">
+			</div>
+	<script type="text/javascript">
+	function store_session(){
+		var keyinput = document.getElementById('session_storage_key').value;
+		var valinput = document.getElementById('session_storage_value').value;
+		if(keyinput== '' || valinput== ''){
+			alert('กรุณากรอกข้อมูลให้ครบถ้วน');
+			return;
+		}
+		try{
+			if(typeof(window.sessionStorage) != 'undefined'){
+				window.sessionStorage.setItem(keyinput,valinput);
+				document.getElementById('session_storage_key').value = '';
+				document.getElementById('session_storage_value').value = '';
+				alert('ได้จัดเก็บ '+ keyinput + ' : ' + valinput + ' ลงใน session Storage แล้ว');
+				clear_div('selectDiv');
+				create_selector('selectDiv');
+			} else {
+				throw "window.sessionStorage, not defined";
+			}
+		}
+		catch(err){
+			output_str("store_session,error," + err);
+		}
+	}
+	function del_session(key){
+		if(typeof(window.sessionStorage) != 'undefined'){ 
+			if(confirm('ยืนยันการลบค่า '+key)==true){
+				window.sessionStorage.removeItem(key); 
+				alert('ได้ลบข้อมูล: '+ key +' ออกจาก session Storage แล้ว');
+				clear_div('selectDiv');
+				create_selector('selectDiv');
+			}
+		} 
+		else{ 
+			throw "window.sessionStorage, not defined"; 
+		}
+	}
+	function edit_session(key){
+		if(typeof(window.sessionStorage) != 'undefined'){ 
+			if(newValue = prompt('กรุณากรอกค่าใหม่ สำหรับ '+key , window.sessionStorage.getItem(key))){
+				if(confirm('ยืนยันการแก้ไข')==true){
+					window.sessionStorage.setItem(key,newValue); 
+					alert('ได้แก้ไข: '+ key +' เป็นค่า '+ newValue +' แล้ว');
+					clear_div('selectDiv');
+					create_selector('selectDiv');
+				}
+			}
+		} 
+		else{ 
+			throw "window.sessionStorage, not defined"; 
+		}
+	}
+	function create_selector(selectContainer) {				
+        		if(window.sessionStorage.length>0){					
+            		var selectNode = document.createElement("select");	
+            		selectNode.setAttribute("id","myList");			
+            		var textbox = document.createElement("input");	
+            		textbox.setAttribute("type","text");				
+            		textbox.setAttribute("id","showValue");			
+            		selectNode.options[selectNode.options.length] = new Option('คลิก','');	
+            		for (var key in window.sessionStorage) {
+            			showData = window.sessionStorage.getItem(key);							
+                			selectNode.options[selectNode.options.length] = new Option(key,showData);			
+            		}
+          selectNode.setAttribute("onchange","show_value(this.options[selectedIndex].text);"); 
+           		if(document.getElementById("showValue")){			        
+            			clear_div();								
+            		}
+            		var container = document.getElementById(selectContainer);        
+            		container.appendChild(selectNode);                                                        
+            		container.appendChild(textbox);                                              
+       	 	}     
+    	}
+    	function show_value(key){
+        		document.getElementById('showValue').value = 			window.sessionStorage.getItem(key);
+        		var selectNode = document.getElementById('myList');
+        		selectNode.options[0].setAttribute('disabled','true');	
+        		edit_button(key);
+        		del_button(key);
+    	}
+   	 function del_button(delKey){
+    		var container = document.getElementById('selectDiv'); 
+        		if(!!document.getElementById('delNode')){
+    			container.removeChild(document.getElementById('delNode'));
+    		}
+    		var delButton = document.createElement("button");	
+    		delButton.setAttribute('id','delNode');
+    		delButton.setAttribute("onclick","del_session('"+delKey+"')");
+    		delButton.innerHTML = 'ลบ';
+    		container.appendChild(delButton);
+   	 }
+	function edit_button(editKey){
+    		var container = document.getElementById('selectDiv'); 
+        	if(!!document.getElementById('editButtonNode')){
+    			container.removeChild(document.getElementById('editButtonNode'));
+    		}
+    		var editButton = document.createElement("button");	
+    		editButton.setAttribute('id','editButtonNode');
+    		editButton.setAttribute("onclick","edit_session('"+editKey+"')");
+    		editButton.innerHTML = 'แก้ไข';
+    		container.appendChild(editButton);
+    	}
+	function clear_session() {
+		if(typeof(window.sessionStorage) != 'undefined'){ 
+			if(confirm('ยืนยันการล้างข้อมูลออกจาก Session Storage')==true){
+				window.sessionStorage.clear() ;
+				alert('ได้ล้างข้อมูลออกจาก Session Storage เรียบร้อยแล้ว');
+				clear_div('selectDiv');
+			}
+		} else{ 
+			throw "window.sessionStorage, not defined"; 
+		}
+    	}
+	function clear_div(delDiv) {
+		deleteDiv = document.getElementById(delDiv);
+		deleteDiv.innerHTML='';
+   	}
+    	window.onload = create_selector('selectDiv');
+	</script>
+		 </body>
+	</html> 

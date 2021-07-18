@@ -1,0 +1,15 @@
+#blockContainer {
+	width: 960px;
+	margin: auto;
+}
+#sidebarLeft {
+	float: left;
+	width: 240px;
+	background: #e2e2e2;
+}
+#sidebarLeft p {
+   	padding: 10px;
+}
+#mainRight {
+  	background: #00e4e2;
+}

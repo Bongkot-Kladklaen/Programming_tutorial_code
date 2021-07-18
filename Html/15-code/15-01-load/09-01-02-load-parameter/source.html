@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+	<title>My First Ajax</title>
+	<script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<h2>Search</h2>
+	<input type="text" id="mySearch" />
+	<hr />
+	<div id="strShow"></div>
+	<script>
+	$(document).ready(function(){
+		$('#mySearch').keyup(function(){
+			myAjax();
+		});
+	});
+	function myAjax(){
+		var searchInput = $('#mySearch').val();
+		$('#strShow').load('sendID.php', {myID: searchInput});
+	}
+	</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+/* header มีพื้นเป็นสีเทา */
+header{
+	background-color: gray;
+}
+/* aside ให้ชิดขวา กว้าง 20% และกำหนดสีพื้น */
+aside{
+	float:right; 
+	width: 20%;
+	background-color: silver;
+}
+/* list ที่อยู่ใน aside ไม่มีจุดด้านหน้า */
+aside li {
+	list-style: none;
+}
+/* header, aside กำหนดสีพื้น ใช้เส้นทึบ และเส้นขนาด 1 พิกเซล */
+header, aside {
+	outline-color: black;
+	outline-style: solid;
+	outline-width: 1px;
+}
+/* กำหนดสี body ซึ่งเป็นพื้นหลังเว็บเพจ */
+body{
+	background-color: silver;
+}
+/* เลือกเอลิเมนต์ที่มี id=main พร้อมกำหนดให้กว้าง 800px และจัดให้อยู่กึ่งกลางหน้าจอ */
+#main{
+	width: 800px;
+	margin: auto;
+}

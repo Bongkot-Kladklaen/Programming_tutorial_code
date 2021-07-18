@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+	<html>
+		<head>
+			<TITLE>ทดสอบการล้างข้อมูลออกจาก Local Storage</TITLE>
+			<meta charset= "utf-8" >
+		</head>
+		<body>
+
+			<div>
+				key : <input id="local_storage_key" type="text" /> &nbsp;
+				value : <input id="local_storage_value" type="text" />
+			</div>
+			<hr>
+			<div>
+			         <input type="button" value="จัดเก็บ" onclick="store_local();"/>
+			         <input type="button" value="แสดง" onclick="load_local();"/>
+			         <input type="button" value="ล้างทั้งหมด" onclick="clear_local();"/>
+			<div id="tableDiv" style="margin-top:10px;">
+			</div>
+
+	<script type="text/javascript">
+
+	function store_local(){
+		var keyinput = document.getElementById('local_storage_key').value;
+		var valinput = document.getElementById('local_storage_value').value;
+		if(keyinput== '' || valinput== ''){
+			return;
+		}
+		try{
+			if(typeof(window.localStorage) != 'undefined'){
+				window.localStorage.setItem(keyinput,valinput);
+				document.getElementById('local_storage_key').value = '';
+				document.getElementById('local_storage_value').value = '';
+				alert('ได้จัดเก็บ '+ keyinput + ' : ' + valinput + ' ลงใน Local Storage แล้ว');
+			}
+			else{
+				throw "window.localStorage, not defined";
+			}
+		}
+		catch(err){
+			output_str("store_local,error," + err);
+		}
+	}
+	function load_local(){
+		try {
+			if(typeof(window.localStorage) != 'undefined') {
+				createTable('tableDiv');
+			}
+			else {
+				 throw "window.localStorage, not defined";
+			}
+		}
+		catch(err) {
+			output_str("store_local,error," + err);
+		}
+	}
+	function createTable(tableContainer) {
+		if(window.localStorage.length>0){
+            		var table = document.createElement ("table");
+            		table.border = "1px";
+            		table.setAttribute("id","showTable");
+            		var tBody = document.createElement ("tbody");
+            		table.appendChild (tBody);
+            		for (var key in window.localStorage) {
+                			var row = tBody.insertRow (-1);
+                			for (var i = 0; i < 2; i++) {
+                    				var cell = row.insertCell (-1);
+                    				if(i%2==0){
+                    					cell.innerHTML = key;
+                    				}
+                    				else{
+                    					cell.innerHTML = window.localStorage.getItem(key);
+                    				}
+                			}
+            		}
+            		var container = document.getElementById (tableContainer);
+            		container.appendChild(table);
+            	}
+        	}
+        	function clear_local() {
+		if(typeof(window.localStorage) != 'undefined'){ 
+			window.localStorage.clear() ;
+			alert('ได้ล้างข้อมูลออกจาก Local Storage เรียบร้อยแล้ว');
+			deleteTable = document.getElementById('showTable');
+			document.getElementById('tableDiv').removeChild(deleteTable);
+		} else{ 
+			throw "window.localStorage, not defined"; 
+		}
+            }
+	</script>
+		 </body>
+	</html> 

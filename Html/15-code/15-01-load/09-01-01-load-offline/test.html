@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+	<title>My First Ajax</title>
+	<script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<h2>My List</h2>
+	<select id="mySelection" name="mySelection">
+		<option value="nothing" selected="selected">Select category</option>
+		<option value="one">Category 1</option>
+		<option value="two">Category 2</option>
+		<option value="three">Category 3</option>
+	</select>
+	<hr />
+	<div id="strShow"></div>
+	<script>
+		$(document).ready(function(){				//1
+  			myAjax();
+		});
+		function myAjax(){							//2
+			$('#mySelection').change(function(){
+				$('#strShow').load('source.html');
+			});
+		}
+	</script>
+</body>
+</html>

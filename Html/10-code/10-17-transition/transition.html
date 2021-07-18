@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS3 Multi Columns</title>
+	<meta charset='UTF-8'>
+	<style>
+		#mydiv{
+			transition-property: all; 
+			transition-delay: 4s;
+			transition-duration: 0.5s;
+			transition-timing-function: ease-out;
+		}
+
+		#mydiv:hover{
+			background: #00ff00;  /*เปลี่ยนสี */
+			transform: rotate(5deg);  /*หมุน */
+			transform: scale(1, 1.1); /* ขยายขนาด */
+		}
+	</style>
+</head>
+<body>
+	<div id="mydiv">
+		<p>Hello Transition!</p>
+	</div>
+</body>
+</html>

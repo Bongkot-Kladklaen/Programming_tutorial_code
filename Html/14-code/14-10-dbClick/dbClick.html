@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test Event</title>
+	<script src="jquery-3.3.1.min.js"></script>
+</head>
+<style>
+	#myGreen, #myRed, #myBlue, #myOrange {
+		width: 60px;
+		height: 60px;	
+	}
+	#myGreen {background-color: green;}
+	#myRed {background-color: red;}
+	#myBlue {background-color: blue;}
+	#myOrange {background-color: orange;}
+</style>
+<body>
+	<h3>Please double click!</h3>
+	<table>
+		<tr>
+			<td><div id="myRed" class="test"></div></td>
+			<td><div id="myGreen" class="test"></div></td>
+			<td><div id="myBlue" class="test"></div></td>
+			<td><div id="myOrange" class="test"></div></td>	
+		</tr>
+	</table>
+	<div id="showResult"></div>
+	<script >
+		$(document).ready(function(){
+			myDoubleClick();
+		});	
+		function myDoubleClick(){
+			$('.test').dblclick(function(){
+				var strShow = $(this).css("background-color");
+				$("#showResult").html(strShow).css("color",strShow);
+			});
+		}
+	</script>
+</body>
+</html>

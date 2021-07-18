@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS3 *:target</title>
+	<meta charset='UTF-8'>
+	<style>
+		h1:nth-of-type(2){ 
+			background-image: url('reviva.png');
+			background-repeat: no-repeat;
+			background-position: right;
+			padding-right: 40px;
+			background-color:green;
+			color:white;
+		} 
+	</style>
+</head>
+
+<body>
+	
+	<h1 id="hello">Hellow</h1>
+	<p>Hello World!</p>
+	<p>Hello World!</p>
+	<hr />
+	
+	<h1 id="goodbye">Goodbye</h1>
+	<p>Goodbye World!</p>
+	<p>Goodbye World!</p>
+	<hr />
+	
+	<p><a href="#hello">คลิกสวัสดี</a> | <a href="#goodbye">คลิกลาก่อน</a></p>
+	
+</body>
+</html>

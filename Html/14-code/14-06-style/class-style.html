@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  	<script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+  	<div>CSS function</div><br />
+  	<ul class="myUnOrderList">
+  		<li>Firt List</li>
+  		<li>Secound List</li>
+  		<li>Third List</li>
+		<li>Last List</li>
+  	</ul>
+	<script>
+		$('li').css("color","red");
+		$('li:first')
+			.css("color","blue")
+			.css("background-color", "#e4e4e4")
+			.css("list-style","square url('images/icon.png')");
+	</script>
+</body>
+</html>

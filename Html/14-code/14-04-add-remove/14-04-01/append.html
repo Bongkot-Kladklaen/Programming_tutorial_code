@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  	<script src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+  	<div>jQuery Selector</div>
+  	<ul id="myUnOrderList">
+  		<li>Firt List</li>
+  		<li>Secound List</li>
+  		<li>Third List</li>
+  	</ul>
+  		<script>
+		var myElement = document.getElementById("myUnOrderList");  
+		var myNewElement = document.createElement(“li”); 
+		myElement.appendChild(myNewElement); 
+		myNewElement.innerHTML = "Forth List";
+	</script>
+</body>
+</html>

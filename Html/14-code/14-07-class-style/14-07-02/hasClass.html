@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  	<script src="jquery-3.3.1.min.js"></script>
+</head>
+<style>
+	.myClass {
+		background-color:#e3e3e3;
+		color:blue;
+	}
+</style>
+<body>
+  	<div>Edit Class</div>
+	<p class= "myClass">First Paragraph</p>
+	<p>Second Paragraph</p>
+	<p class= "myClass">Third Paragraph</p>
+	<script>
+		$('p').each(function(){
+			var myStr = $(this).hasClass("myClass");
+			alert($(this).html() + ": is return " + myStr);
+		});
+	</script>
+</body>
+</html>

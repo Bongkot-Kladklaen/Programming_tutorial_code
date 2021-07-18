@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+	<html>
+		<head>
+			<TITLE>ทดสอบ Local Storage</TITLE>
+			<meta charset= "utf-8" >
+		</head>
+		<body>
+
+			<div>
+				key : <input id="local_storage_key" type="text" /> &nbsp;
+				value : <input id="local_storage_value" type="text" />
+			</div>
+			<hr>
+			<div>
+				<input type="button" value="จัดเก็บ" onclick="store_local();"/>
+				<input type="button" value="แสดง" onclick="load_local();"/>
+			</div>
+			<div id="selectDiv" style="margin-top:10px;">
+			</div>
+
+	<script type="text/javascript">
+	function store_local(){
+		var keyinput = document.getElementById('local_storage_key').value;
+		var valinput = document.getElementById('local_storage_value').value;
+		if(keyinput== '' || valinput== ''){
+			return;
+		}
+		try{
+			if(typeof(window.localStorage) != 'undefined'){
+				window.localStorage.setItem(keyinput,valinput);
+				document.getElementById('local_storage_key').value = '';
+				document.getElementById('local_storage_value').value = '';
+				alert('ได้จัดเก็บ '+ keyinput + ' : ' + valinput + ' ลงใน Local Storage แล้ว');
+			} else {
+				throw "window.localStorage, not defined";
+			}
+		}
+		catch(err){
+			output_str("store_local,error," + err);
+		}
+	}
+	function load_local(){
+		try {
+			if(typeof(window.localStorage) != 'undefined') {
+				create_selector('selectDiv')
+				//create_table('tableDiv');
+			} else {
+				throw "window.localStorage, not defined";
+			}
+		}
+		catch(err) {
+				output_str("store_local,error," + err);
+		}
+	}
+        	function create_selector(selectContainer) {
+        		if(window.localStorage.length>0){
+            		var select = document.createElement("select");
+            		select.setAttribute("id","localList");
+            		var textbox = document.createElement("input");
+            		textbox.setAttribute("type","text");
+            		textbox.setAttribute("id","showValue");
+            		select.options[select.options.length] = new Option('คลิก','');
+            		for (var key in window.localStorage) {
+                			select.options[select.options.length] = new Option(key,window.localStorage.getItem(key));
+            		}
+          	select.setAttribute("onchange","show_value(this.options[selectedIndex].text)");
+           		 if(document.getElementById("showValue")){
+            			clear_div();
+            		}
+            		var container = document.getElementById (selectContainer);
+            		container.appendChild(select);
+            		container.appendChild(textbox);
+            	}
+        	}
+        	function show_value(key){
+        		document.getElementById('showValue').value = window.localStorage.getItem(key);
+        	}
+   	 function clear_div() {
+        		deleteSelect = document.getElementById('localList');
+		deleteText = document.getElementById('showValue');
+		document.getElementById('selectDiv').removeChild(deleteSelect);
+		document.getElementById('selectDiv').removeChild(deleteText);
+    	}
+	</script>
+		 </body>
+	</html> 

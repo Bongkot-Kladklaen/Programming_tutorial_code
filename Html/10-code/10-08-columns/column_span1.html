@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS3 Multi Columns</title>
+	<meta charset='UTF-8'>
+	<style>
+		#multicolumn{
+			-moz-column-count: 3;  /* จำนวนคอลัมน์ */
+			-moz-column-width: 10em; /* ความกว้างคอลัมน์ */
+			-moz-column-gap: 2em; /* ระยะห่างระหว่าคอลัมน์ */
+			-moz-column-rule: 2px solid #e3e3e3; /*เส้นคั่น */
+		}		
+		h2{
+			-webkit-column-span: all;
+		}
+
+	</style>
+	
+</head>
+<body>
+	<div id="multicolumn">
+		<h2>Multiple Columns</h2>
+<p>Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!Hello World!</p>
+		<p>Goodbye World!Goodbye World!Goodbye World!Goodbye World!Goodbye World!Goodbye World!Goodbye World!Goodbye World!</p>
+	</div>
+</body>
+</html>

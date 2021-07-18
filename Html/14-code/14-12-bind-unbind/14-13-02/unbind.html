@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+	<title>Test Event</title>
+	<script src="jquery-3.3.1.min.js"></script>
+	<style>
+		.highlight{cursor: pointer;}
+		.highlightblue{background-color: #e4ffff;}
+	</style>
+</head>
+<body>
+	<form>
+		<table>
+			<tr>
+				<td>Name</td><td><input class="myInput" type="text" /></td>
+			</tr>
+			<tr>
+				<td>Lastname</td><td><input class="myInput" type="text" /></td>
+			</tr>
+		</table>
+	</form>
+	<input type="button" id="myCancel" value="click"/>
+	<script >
+		$(document).ready(function(){
+			myUnbind();
+			changeAction();
+		});	
+		function myUnbind(){
+			$('#myCancel').click(function(){
+				$('.myInput').unbind('dblclick');
+			});
+		}
+		function changeAction() {
+			$('.myInput').bind('mouseenter mouseleave dblclick', 
+			function(myEvent){
+				$(this).toggleClass('highlight');
+				if(myEvent.type=='dblclick'){
+					var myDialog = $(this).val();
+					if(myDialog !== '' && myDialog !== ' '){
+						alert('Your data is ' + myDialog);
+					}
+				}
+			}).bind('focus blur', function(){
+				$(this).toggleClass('highlightblue');
+			});
+		}
+	</script>
+</body>
+</html>

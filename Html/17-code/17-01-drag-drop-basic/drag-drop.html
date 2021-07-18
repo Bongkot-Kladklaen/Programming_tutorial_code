@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="th">
+	<head>
+		<title>Drag and Drop</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h2>ทดสอบ Drag and Drop</h2>
+		<p id="statusMessage"></p>  		
+	<div>
+	      <div style="float: left">
+			<img id="image1" src="_images/1.jpg" draggable="true" /><br>
+			<img id="image2" src="_images/2.jpg" draggable="true" />
+			<footer>สินค้า</Footer>
+	 	 </div>
+	      <div style="float: left; margin-left: 10px;">
+			<img id="dropZone" draggable="false" src="_images/bin.png" />
+			<footer>ลากมาใส่ตะกร้า ที่นี่</Footer></div>
+    		</div>
+    </div>		
+	<script>
+	   var myArray = {image1: 'ขนมนมเนย', image2: 'ข้าวปลาอาหาร'};
+	   var globalStatus;  
+	   function showStatus(mDetect) {
+			var myObject = document.getElementById('statusMessage');
+			if (!globalStatus){
+				globalStatus = myObject;
+			}
+			if (mDetect){
+				globalStatus.innerHTML = mDetect;
+			} else {
+				globalStatus.innerHTML = '&nbsp;';
+			}
+	   } 
+     	function detectDragAndDrop() {		
+			if ('draggable' in document.createElement('aside')) {
+				return true;
+			} 
+				return false;
+			}
+     	function showDragStart(event){
+        	currentId = this.id;
+        	showStatus('เริ่มการลาก :' + myArray[currentId]);
+     	}
+   		function preventDragOver(event){
+			if(event.preventDefault){
+				event.preventDefault();
+			}
+     	}
+   		var countDrag=1;
+  		function showDrop(event){
+        	showStatus('จำนวนการปล่อย คือ : ' + countDrag++)
+        }
+        function beginDrag() {
+            if(detectDragAndDrop()) {
+                showStatus('บราวเซอร์นี้สนับสนุน Drag and drop');
+                var myElement1 = document.getElementById('image1');
+                var myElement2 = document.getElementById('image2');
+                var myDropZone = document.getElementById('dropZone')
+                myElement1.addEventListener('dragstart', showDragStart, false);
+                myElement2.addEventListener('dragstart', showDragStart, false);
+                myDropZone.addEventListener('dragover', preventDragOver, false);
+                myDropZone.addEventListener('drop', showDrop, false);
+            } else {
+                showStatus('Sorry! บราวเซอร์ไม่สนับสนุน Drag and drop');
+            }
+        }
+        window.onload = function() {
+            beginDrag();
+        }        
+	</script>
+	</body>
+</html>

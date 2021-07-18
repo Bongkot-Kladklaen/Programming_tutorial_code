@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript Object</title>
+	<script>
+	window.onload = function(){
+		var myJSONtxt01 = '{ "course":"JavaScript Basic","code":"JS001M"}';
+		var myJSONtxt02 = '{' +
+			' "student" : [' +
+				'{ "firstName":"จีราวุธ" , "lastName":"วารินทร์" },' +
+				'{ "firstName":"สมชาย" , "lastName":"จรดปลายเท้า" },' +
+				'{ "firstName":"คมสัน" , "lastName":"เลิศรังสรรค์" },' +
+				'{ "firstName":"สมบัติ" , "lastName":"สุนทรีย์วงศ์" }' +
+				  ']'+
+			'}';
+		var objBasic = JSON.parse(myJSONtxt01);
+		var objComplex = eval('('+ myJSONtxt02 + ')');
+		alert("ชื่อวิชา: " + objBasic.course + " รหัสวิชา: " + objBasic.code);
+		alert("ชื่อนักเรียน: " + objComplex.student[0].firstName + " " + objComplex.student[0].lastName);
+	}
+	</script>
+</head>
+<body>
+</body>
+</html>

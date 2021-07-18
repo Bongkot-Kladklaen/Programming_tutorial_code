@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+	<title>Hello jQuery</title>
+</head>
+<body>
+	<h2>Walk through the DOM</h2>
+	<ul>
+		<li>My First List</li>
+		<li>My Second List</li>
+		<li>My Third List</li>
+	</ul>
+	<div></div>
+	<script src="jquery-3.3.1.min.js"></script>
+	<script>
+		var showStr = "";
+   	$("li").each(function(index){
+			showStr += index + " : " + $(this).text() + "<br />";
+		});
+		$("div").html(showStr);
+		$("div").css("color","red");
+	</script>
+</body>
+</html>
