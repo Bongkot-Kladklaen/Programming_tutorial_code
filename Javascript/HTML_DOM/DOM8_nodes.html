@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Nodes</title>
+</head>
+<body>
+
+    <h2>Creating New HTML Elements (Nodes)</h2>
+    <div id="div1">
+        <p id="p1">This is a paragraph.</p>
+        <p id="p2">This is another paragraph.</p>
+    </div><hr>
+
+    <h2>Creating New HTML Elements - insertBefore()</h2>
+    <div id="div2">
+        <p id="p3">This is a paragraph.</p>
+        <p id="p4">This is another paragraph.</p>
+    </div><hr>
+
+    <h2>Removing Existing HTML Elements</h2>
+    <div>
+        <p id="p5">This is a paragraph.</p>
+        <p id="p6">This is another paragraph.</p>
+    </div>
+    <button onclick="myFunction()">Remove Element</button>
+
+    <script>
+        var para = document.createElement("p");
+        var node = document.createTextNode("This is new.");
+        para.appendChild(node);
+        var element = document.getElementById("div1");
+        element.appendChild(para);
+
+        var para1 = document.createElement("p");
+        var node1 = document.createTextNode("This is new.");
+        para1.appendChild(node1);
+        var element1 = document.getElementById("div2");
+        var child = document.getElementById("p3");
+        element1.insertBefore(para1, child);
+
+        function myFunction() {
+            var elmnt = document.getElementById("p5");
+            elmnt.remove();
+        }
+
+    </script>
+</body>
+</html>

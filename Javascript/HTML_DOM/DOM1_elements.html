@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Elements</title>
+</head>
+<body>
+    <h2>Finding HTML Element by ID</h2>
+    <p id="intro">Hello World!</p>
+    <p>This example demonstrates the <b>getElementsById</b> method.</p>
+    <p id="demo"></p><hr/>
+
+    <h2>Finding HTML Elements by Tag Name</h2>
+    <p>This example demonstrates the <b>getElementsByTagName</b> method.</p>
+    <p id="demo2"></p><hr/>
+
+    <h2>Finding HTML Elements by Class Name</h2>
+    <p class="intro">The DOM is very useful.</p>
+    <p class="intro">This example demonstrates the <b>getElementsByClassName</b> method.</p>
+    <p id="demo3"></p><hr/>
+
+    <h2>Finding HTML Elements by Query Selector</h2>
+    <p id="demo4"></p><hr/>
+
+    <h2>Finding HTML Elements Using document.fors</h2>
+    <form action="" id='frm1'>
+        First name: <input type="text" name="fname" value="Donald">
+        Last name: <input type="text" name="lname" value="Duck">
+        <input type="submit" value="Submit">
+    </form>
+    <p>Click "Try it" to display the value of each element in the form.</p>
+    <button onclick="myFunction()">Try it</button>
+    <p id="demo5"></p><hr>
+
+    <script>
+        var myElementById = document.getElementById("intro");
+        document.getElementById("demo").innerHTML = "The text from the intro paragraph is " + myElementById.innerHTML;
+
+        var myElementByTagName = document.getElementsByTagName("p");
+        document.getElementById("demo2").innerHTML = 'The text in first paragraph (index 0) is: ' + myElementByTagName[0].innerHTML;
+
+        var myElementByClassName = document.getElementsByClassName("intro");
+        document.getElementById("demo3").innerHTML = 'The first paragraph (index 0) with class="intro": ' + myElementByClassName[0].innerHTML;
+
+        var myElementByQuerySelector = document.querySelectorAll("p.intro");
+        document.getElementById("demo4").innerHTML = 'The first paragraph (index 0) with class="intro": ' + myElementByQuerySelector[0].innerHTML;
+
+        function myFunction() {
+            var x = document.forms["frm1"];
+            var text = "";
+            var i;
+            for ( i = 0; i < x.length; i++) {
+               text += x.elements[i].value + "<br/>";
+                
+            }
+            document.getElementById("demo5").innerHTML = text;
+        }
+
+    </script>
+    
+</body>
+</html>
