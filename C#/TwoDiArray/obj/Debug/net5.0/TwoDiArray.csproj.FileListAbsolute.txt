@@ -1,0 +1,15 @@
+/Users/jaybong/Desktop/LearnPrograming/C#/TwoDiArray/obj/Debug/net5.0/TwoDiArray.csprojAssemblyReference.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/TwoDiArray/obj/Debug/net5.0/TwoDiArray.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jaybong/Desktop/LearnPrograming/C#/TwoDiArray/obj/Debug/net5.0/TwoDiArray.AssemblyInfoInputs.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/TwoDiArray/obj/Debug/net5.0/TwoDiArray.AssemblyInfo.cs
+/Users/jaybong/Desktop/LearnPrograming/C#/TwoDiArray/obj/Debug/net5.0/TwoDiArray.csproj.CoreCompileInputs.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/TwoDiArray/bin/Debug/net5.0/TwoDiArray.deps.json
+/Users/jaybong/Desktop/LearnPrograming/C#/TwoDiArray/bin/Debug/net5.0/TwoDiArray.runtimeconfig.json
+/Users/jaybong/Desktop/LearnPrograming/C#/TwoDiArray/bin/Debug/net5.0/TwoDiArray.runtimeconfig.dev.json
+/Users/jaybong/Desktop/LearnPrograming/C#/TwoDiArray/bin/Debug/net5.0/TwoDiArray.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/TwoDiArray/bin/Debug/net5.0/ref/TwoDiArray.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/TwoDiArray/bin/Debug/net5.0/TwoDiArray.pdb
+/Users/jaybong/Desktop/LearnPrograming/C#/TwoDiArray/obj/Debug/net5.0/TwoDiArray.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/TwoDiArray/obj/Debug/net5.0/ref/TwoDiArray.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/TwoDiArray/obj/Debug/net5.0/TwoDiArray.pdb
+/Users/jaybong/Desktop/LearnPrograming/C#/TwoDiArray/obj/Debug/net5.0/TwoDiArray.genruntimeconfig.cache

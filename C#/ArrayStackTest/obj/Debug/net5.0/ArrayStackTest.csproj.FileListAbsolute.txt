@@ -1,0 +1,15 @@
+/Users/jaybong/Desktop/LearnPrograming/C#/ArrayStackTest/bin/Debug/net5.0/ArrayStackTest.deps.json
+/Users/jaybong/Desktop/LearnPrograming/C#/ArrayStackTest/bin/Debug/net5.0/ArrayStackTest.runtimeconfig.json
+/Users/jaybong/Desktop/LearnPrograming/C#/ArrayStackTest/bin/Debug/net5.0/ArrayStackTest.runtimeconfig.dev.json
+/Users/jaybong/Desktop/LearnPrograming/C#/ArrayStackTest/bin/Debug/net5.0/ArrayStackTest.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/ArrayStackTest/bin/Debug/net5.0/ref/ArrayStackTest.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/ArrayStackTest/bin/Debug/net5.0/ArrayStackTest.pdb
+/Users/jaybong/Desktop/LearnPrograming/C#/ArrayStackTest/obj/Debug/net5.0/ArrayStackTest.csprojAssemblyReference.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/ArrayStackTest/obj/Debug/net5.0/ArrayStackTest.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jaybong/Desktop/LearnPrograming/C#/ArrayStackTest/obj/Debug/net5.0/ArrayStackTest.AssemblyInfoInputs.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/ArrayStackTest/obj/Debug/net5.0/ArrayStackTest.AssemblyInfo.cs
+/Users/jaybong/Desktop/LearnPrograming/C#/ArrayStackTest/obj/Debug/net5.0/ArrayStackTest.csproj.CoreCompileInputs.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/ArrayStackTest/obj/Debug/net5.0/ArrayStackTest.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/ArrayStackTest/obj/Debug/net5.0/ref/ArrayStackTest.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/ArrayStackTest/obj/Debug/net5.0/ArrayStackTest.pdb
+/Users/jaybong/Desktop/LearnPrograming/C#/ArrayStackTest/obj/Debug/net5.0/ArrayStackTest.genruntimeconfig.cache

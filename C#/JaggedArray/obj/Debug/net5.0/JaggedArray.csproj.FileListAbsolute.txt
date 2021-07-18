@@ -1,0 +1,15 @@
+/Users/jaybong/Desktop/LearnPrograming/C#/JaggedArray/bin/Debug/net5.0/JaggedArray.deps.json
+/Users/jaybong/Desktop/LearnPrograming/C#/JaggedArray/bin/Debug/net5.0/JaggedArray.runtimeconfig.json
+/Users/jaybong/Desktop/LearnPrograming/C#/JaggedArray/bin/Debug/net5.0/JaggedArray.runtimeconfig.dev.json
+/Users/jaybong/Desktop/LearnPrograming/C#/JaggedArray/bin/Debug/net5.0/JaggedArray.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/JaggedArray/bin/Debug/net5.0/ref/JaggedArray.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/JaggedArray/bin/Debug/net5.0/JaggedArray.pdb
+/Users/jaybong/Desktop/LearnPrograming/C#/JaggedArray/obj/Debug/net5.0/JaggedArray.csprojAssemblyReference.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/JaggedArray/obj/Debug/net5.0/JaggedArray.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jaybong/Desktop/LearnPrograming/C#/JaggedArray/obj/Debug/net5.0/JaggedArray.AssemblyInfoInputs.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/JaggedArray/obj/Debug/net5.0/JaggedArray.AssemblyInfo.cs
+/Users/jaybong/Desktop/LearnPrograming/C#/JaggedArray/obj/Debug/net5.0/JaggedArray.csproj.CoreCompileInputs.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/JaggedArray/obj/Debug/net5.0/JaggedArray.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/JaggedArray/obj/Debug/net5.0/ref/JaggedArray.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/JaggedArray/obj/Debug/net5.0/JaggedArray.pdb
+/Users/jaybong/Desktop/LearnPrograming/C#/JaggedArray/obj/Debug/net5.0/JaggedArray.genruntimeconfig.cache

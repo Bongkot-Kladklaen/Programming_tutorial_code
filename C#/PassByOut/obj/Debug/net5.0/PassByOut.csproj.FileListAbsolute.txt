@@ -1,0 +1,15 @@
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByOut/bin/Debug/net5.0/PassByOut.deps.json
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByOut/bin/Debug/net5.0/PassByOut.runtimeconfig.json
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByOut/bin/Debug/net5.0/PassByOut.runtimeconfig.dev.json
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByOut/bin/Debug/net5.0/PassByOut.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByOut/bin/Debug/net5.0/ref/PassByOut.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByOut/bin/Debug/net5.0/PassByOut.pdb
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByOut/obj/Debug/net5.0/PassByOut.csprojAssemblyReference.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByOut/obj/Debug/net5.0/PassByOut.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByOut/obj/Debug/net5.0/PassByOut.AssemblyInfoInputs.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByOut/obj/Debug/net5.0/PassByOut.AssemblyInfo.cs
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByOut/obj/Debug/net5.0/PassByOut.csproj.CoreCompileInputs.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByOut/obj/Debug/net5.0/PassByOut.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByOut/obj/Debug/net5.0/ref/PassByOut.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByOut/obj/Debug/net5.0/PassByOut.pdb
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByOut/obj/Debug/net5.0/PassByOut.genruntimeconfig.cache

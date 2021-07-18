@@ -1,0 +1,15 @@
+/Users/jaybong/Desktop/LearnPrograming/C#/Swap/bin/Debug/net5.0/Swap.deps.json
+/Users/jaybong/Desktop/LearnPrograming/C#/Swap/bin/Debug/net5.0/Swap.runtimeconfig.json
+/Users/jaybong/Desktop/LearnPrograming/C#/Swap/bin/Debug/net5.0/Swap.runtimeconfig.dev.json
+/Users/jaybong/Desktop/LearnPrograming/C#/Swap/bin/Debug/net5.0/Swap.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/Swap/bin/Debug/net5.0/ref/Swap.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/Swap/bin/Debug/net5.0/Swap.pdb
+/Users/jaybong/Desktop/LearnPrograming/C#/Swap/obj/Debug/net5.0/Swap.csprojAssemblyReference.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/Swap/obj/Debug/net5.0/Swap.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jaybong/Desktop/LearnPrograming/C#/Swap/obj/Debug/net5.0/Swap.AssemblyInfoInputs.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/Swap/obj/Debug/net5.0/Swap.AssemblyInfo.cs
+/Users/jaybong/Desktop/LearnPrograming/C#/Swap/obj/Debug/net5.0/Swap.csproj.CoreCompileInputs.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/Swap/obj/Debug/net5.0/Swap.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/Swap/obj/Debug/net5.0/ref/Swap.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/Swap/obj/Debug/net5.0/Swap.pdb
+/Users/jaybong/Desktop/LearnPrograming/C#/Swap/obj/Debug/net5.0/Swap.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByRef/bin/Debug/net5.0/PassByRef.deps.json
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByRef/bin/Debug/net5.0/PassByRef.runtimeconfig.json
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByRef/bin/Debug/net5.0/PassByRef.runtimeconfig.dev.json
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByRef/bin/Debug/net5.0/PassByRef.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByRef/bin/Debug/net5.0/ref/PassByRef.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByRef/bin/Debug/net5.0/PassByRef.pdb
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByRef/obj/Debug/net5.0/PassByRef.csprojAssemblyReference.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByRef/obj/Debug/net5.0/PassByRef.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByRef/obj/Debug/net5.0/PassByRef.AssemblyInfoInputs.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByRef/obj/Debug/net5.0/PassByRef.AssemblyInfo.cs
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByRef/obj/Debug/net5.0/PassByRef.csproj.CoreCompileInputs.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByRef/obj/Debug/net5.0/PassByRef.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByRef/obj/Debug/net5.0/ref/PassByRef.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByRef/obj/Debug/net5.0/PassByRef.pdb
+/Users/jaybong/Desktop/LearnPrograming/C#/PassByRef/obj/Debug/net5.0/PassByRef.genruntimeconfig.cache

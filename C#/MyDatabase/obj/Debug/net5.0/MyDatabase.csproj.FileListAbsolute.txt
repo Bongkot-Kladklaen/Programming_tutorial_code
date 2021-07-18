@@ -1,0 +1,15 @@
+/Users/jaybong/Desktop/LearnPrograming/C#/MyDatabase/bin/Debug/net5.0/MyDatabase.deps.json
+/Users/jaybong/Desktop/LearnPrograming/C#/MyDatabase/bin/Debug/net5.0/MyDatabase.runtimeconfig.json
+/Users/jaybong/Desktop/LearnPrograming/C#/MyDatabase/bin/Debug/net5.0/MyDatabase.runtimeconfig.dev.json
+/Users/jaybong/Desktop/LearnPrograming/C#/MyDatabase/bin/Debug/net5.0/MyDatabase.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/MyDatabase/bin/Debug/net5.0/ref/MyDatabase.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/MyDatabase/bin/Debug/net5.0/MyDatabase.pdb
+/Users/jaybong/Desktop/LearnPrograming/C#/MyDatabase/obj/Debug/net5.0/MyDatabase.csprojAssemblyReference.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/MyDatabase/obj/Debug/net5.0/MyDatabase.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jaybong/Desktop/LearnPrograming/C#/MyDatabase/obj/Debug/net5.0/MyDatabase.AssemblyInfoInputs.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/MyDatabase/obj/Debug/net5.0/MyDatabase.AssemblyInfo.cs
+/Users/jaybong/Desktop/LearnPrograming/C#/MyDatabase/obj/Debug/net5.0/MyDatabase.csproj.CoreCompileInputs.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/MyDatabase/obj/Debug/net5.0/MyDatabase.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/MyDatabase/obj/Debug/net5.0/ref/MyDatabase.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/MyDatabase/obj/Debug/net5.0/MyDatabase.pdb
+/Users/jaybong/Desktop/LearnPrograming/C#/MyDatabase/obj/Debug/net5.0/MyDatabase.genruntimeconfig.cache

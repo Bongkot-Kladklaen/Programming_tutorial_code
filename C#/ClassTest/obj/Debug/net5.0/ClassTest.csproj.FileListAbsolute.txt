@@ -1,0 +1,15 @@
+/Users/jaybong/Desktop/LearnPrograming/C#/ClassTest/bin/Debug/net5.0/ClassTest.deps.json
+/Users/jaybong/Desktop/LearnPrograming/C#/ClassTest/bin/Debug/net5.0/ClassTest.runtimeconfig.json
+/Users/jaybong/Desktop/LearnPrograming/C#/ClassTest/bin/Debug/net5.0/ClassTest.runtimeconfig.dev.json
+/Users/jaybong/Desktop/LearnPrograming/C#/ClassTest/bin/Debug/net5.0/ClassTest.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/ClassTest/bin/Debug/net5.0/ref/ClassTest.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/ClassTest/bin/Debug/net5.0/ClassTest.pdb
+/Users/jaybong/Desktop/LearnPrograming/C#/ClassTest/obj/Debug/net5.0/ClassTest.csprojAssemblyReference.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/ClassTest/obj/Debug/net5.0/ClassTest.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jaybong/Desktop/LearnPrograming/C#/ClassTest/obj/Debug/net5.0/ClassTest.AssemblyInfoInputs.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/ClassTest/obj/Debug/net5.0/ClassTest.AssemblyInfo.cs
+/Users/jaybong/Desktop/LearnPrograming/C#/ClassTest/obj/Debug/net5.0/ClassTest.csproj.CoreCompileInputs.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/ClassTest/obj/Debug/net5.0/ClassTest.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/ClassTest/obj/Debug/net5.0/ref/ClassTest.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/ClassTest/obj/Debug/net5.0/ClassTest.pdb
+/Users/jaybong/Desktop/LearnPrograming/C#/ClassTest/obj/Debug/net5.0/ClassTest.genruntimeconfig.cache

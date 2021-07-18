@@ -1,0 +1,15 @@
+/Users/jaybong/Desktop/LearnPrograming/C#/Compare/bin/Debug/net5.0/Compare.deps.json
+/Users/jaybong/Desktop/LearnPrograming/C#/Compare/bin/Debug/net5.0/Compare.runtimeconfig.json
+/Users/jaybong/Desktop/LearnPrograming/C#/Compare/bin/Debug/net5.0/Compare.runtimeconfig.dev.json
+/Users/jaybong/Desktop/LearnPrograming/C#/Compare/bin/Debug/net5.0/Compare.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/Compare/bin/Debug/net5.0/ref/Compare.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/Compare/bin/Debug/net5.0/Compare.pdb
+/Users/jaybong/Desktop/LearnPrograming/C#/Compare/obj/Debug/net5.0/Compare.csprojAssemblyReference.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/Compare/obj/Debug/net5.0/Compare.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jaybong/Desktop/LearnPrograming/C#/Compare/obj/Debug/net5.0/Compare.AssemblyInfoInputs.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/Compare/obj/Debug/net5.0/Compare.AssemblyInfo.cs
+/Users/jaybong/Desktop/LearnPrograming/C#/Compare/obj/Debug/net5.0/Compare.csproj.CoreCompileInputs.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/Compare/obj/Debug/net5.0/Compare.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/Compare/obj/Debug/net5.0/ref/Compare.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/Compare/obj/Debug/net5.0/Compare.pdb
+/Users/jaybong/Desktop/LearnPrograming/C#/Compare/obj/Debug/net5.0/Compare.genruntimeconfig.cache

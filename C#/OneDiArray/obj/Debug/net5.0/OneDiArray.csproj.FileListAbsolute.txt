@@ -1,0 +1,15 @@
+/Users/jaybong/Desktop/LearnPrograming/C#/OneDiArray/bin/Debug/net5.0/OneDiArray.deps.json
+/Users/jaybong/Desktop/LearnPrograming/C#/OneDiArray/bin/Debug/net5.0/OneDiArray.runtimeconfig.json
+/Users/jaybong/Desktop/LearnPrograming/C#/OneDiArray/bin/Debug/net5.0/OneDiArray.runtimeconfig.dev.json
+/Users/jaybong/Desktop/LearnPrograming/C#/OneDiArray/bin/Debug/net5.0/OneDiArray.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/OneDiArray/bin/Debug/net5.0/ref/OneDiArray.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/OneDiArray/bin/Debug/net5.0/OneDiArray.pdb
+/Users/jaybong/Desktop/LearnPrograming/C#/OneDiArray/obj/Debug/net5.0/OneDiArray.csprojAssemblyReference.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/OneDiArray/obj/Debug/net5.0/OneDiArray.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jaybong/Desktop/LearnPrograming/C#/OneDiArray/obj/Debug/net5.0/OneDiArray.AssemblyInfoInputs.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/OneDiArray/obj/Debug/net5.0/OneDiArray.AssemblyInfo.cs
+/Users/jaybong/Desktop/LearnPrograming/C#/OneDiArray/obj/Debug/net5.0/OneDiArray.csproj.CoreCompileInputs.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/OneDiArray/obj/Debug/net5.0/OneDiArray.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/OneDiArray/obj/Debug/net5.0/ref/OneDiArray.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/OneDiArray/obj/Debug/net5.0/OneDiArray.pdb
+/Users/jaybong/Desktop/LearnPrograming/C#/OneDiArray/obj/Debug/net5.0/OneDiArray.genruntimeconfig.cache

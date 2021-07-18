@@ -1,0 +1,15 @@
+/Users/jaybong/Desktop/LearnPrograming/C#/AreaApp/AreaApp/bin/Debug/net5.0/AreaApp.deps.json
+/Users/jaybong/Desktop/LearnPrograming/C#/AreaApp/AreaApp/bin/Debug/net5.0/AreaApp.runtimeconfig.json
+/Users/jaybong/Desktop/LearnPrograming/C#/AreaApp/AreaApp/bin/Debug/net5.0/AreaApp.runtimeconfig.dev.json
+/Users/jaybong/Desktop/LearnPrograming/C#/AreaApp/AreaApp/bin/Debug/net5.0/AreaApp.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/AreaApp/AreaApp/bin/Debug/net5.0/ref/AreaApp.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/AreaApp/AreaApp/bin/Debug/net5.0/AreaApp.pdb
+/Users/jaybong/Desktop/LearnPrograming/C#/AreaApp/AreaApp/obj/Debug/net5.0/AreaApp.csprojAssemblyReference.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/AreaApp/AreaApp/obj/Debug/net5.0/AreaApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jaybong/Desktop/LearnPrograming/C#/AreaApp/AreaApp/obj/Debug/net5.0/AreaApp.AssemblyInfoInputs.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/AreaApp/AreaApp/obj/Debug/net5.0/AreaApp.AssemblyInfo.cs
+/Users/jaybong/Desktop/LearnPrograming/C#/AreaApp/AreaApp/obj/Debug/net5.0/AreaApp.csproj.CoreCompileInputs.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/AreaApp/AreaApp/obj/Debug/net5.0/AreaApp.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/AreaApp/AreaApp/obj/Debug/net5.0/ref/AreaApp.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/AreaApp/AreaApp/obj/Debug/net5.0/AreaApp.pdb
+/Users/jaybong/Desktop/LearnPrograming/C#/AreaApp/AreaApp/obj/Debug/net5.0/AreaApp.genruntimeconfig.cache

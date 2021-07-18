@@ -1,0 +1,15 @@
+/Users/jaybong/Desktop/LearnPrograming/C#/BasicOutput/bin/Debug/net5.0/BasicOutput.deps.json
+/Users/jaybong/Desktop/LearnPrograming/C#/BasicOutput/bin/Debug/net5.0/BasicOutput.runtimeconfig.json
+/Users/jaybong/Desktop/LearnPrograming/C#/BasicOutput/bin/Debug/net5.0/BasicOutput.runtimeconfig.dev.json
+/Users/jaybong/Desktop/LearnPrograming/C#/BasicOutput/bin/Debug/net5.0/BasicOutput.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/BasicOutput/bin/Debug/net5.0/ref/BasicOutput.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/BasicOutput/bin/Debug/net5.0/BasicOutput.pdb
+/Users/jaybong/Desktop/LearnPrograming/C#/BasicOutput/obj/Debug/net5.0/BasicOutput.csprojAssemblyReference.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/BasicOutput/obj/Debug/net5.0/BasicOutput.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jaybong/Desktop/LearnPrograming/C#/BasicOutput/obj/Debug/net5.0/BasicOutput.AssemblyInfoInputs.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/BasicOutput/obj/Debug/net5.0/BasicOutput.AssemblyInfo.cs
+/Users/jaybong/Desktop/LearnPrograming/C#/BasicOutput/obj/Debug/net5.0/BasicOutput.csproj.CoreCompileInputs.cache
+/Users/jaybong/Desktop/LearnPrograming/C#/BasicOutput/obj/Debug/net5.0/BasicOutput.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/BasicOutput/obj/Debug/net5.0/ref/BasicOutput.dll
+/Users/jaybong/Desktop/LearnPrograming/C#/BasicOutput/obj/Debug/net5.0/BasicOutput.pdb
+/Users/jaybong/Desktop/LearnPrograming/C#/BasicOutput/obj/Debug/net5.0/BasicOutput.genruntimeconfig.cache
